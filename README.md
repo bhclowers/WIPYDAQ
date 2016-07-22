@@ -6,8 +6,11 @@ This repository is aimed at collecting the code necessary to acquire and process
 A few things to note:
 
 -The WIPY does not execute floating point notation. 
+
 -A standard redis server must be running
+
 -Redis setup can be achieved on most OS systems but those for Windows can be found in a separate distribution (http://redis.io/download).
+
 -The ADC can only take a maximum of 1.8 V. You will need a voltage divider to scale the output from most standard amplifiers. IGNORE THIS AT YOUR PERIL!
 
 TODO:
