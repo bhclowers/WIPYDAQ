@@ -1,3 +1,7 @@
+'''
+Pulled from:
+https://gist.github.com/sixtenbe/1178136
+'''
 import numpy as np
 from math import pi, log
 import pylab

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Simple application based on guiqwt and guidata"""
+"""Simple application based on guiqwt and guidata by Pierre Raybaut"""
 
 SHOW = True # Show test in GUI-based test launcher
 
@@ -479,8 +479,9 @@ class MainWindow(QMainWindow):
     #------?
     def about(self):
         QMessageBox.about( self, _("About ")+APP_NAME,
-              """<b>%s</b> v%s<p>%s Pierre Raybaut
-              <br>Copyright &copy; 2009-2010 CEA
+              """<b>%s</b> v%s<p>%s Brian H. Clowers
+              <br>
+              <br>Copyright &copy; 2016
               <p>Python %s, Qt %s, PyQt %s %s %s""" % \
               (APP_NAME, VERSION, _("Developped by"), platform.python_version(),
                QT_VERSION_STR, PYQT_VERSION_STR, _("on"), platform.system()) )
